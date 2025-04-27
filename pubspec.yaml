@@ -1,0 +1,24 @@
+name: jdg_kalkulator
+description: A simple income calculator for freelancers and JDG in Poland.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+  path_provider: any
+  pdf: any
+  share_plus: any
+  shared_preferences: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
