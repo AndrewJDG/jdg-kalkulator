@@ -1,11 +1,6 @@
-package com.example.jdggkalkulator
+package com.example.jdgkalkulator
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import io.flutter.embedding.android.FlutterActivity
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        // Здесь будет твой основной код
-    }
+class MainActivity: FlutterActivity() {
 }
